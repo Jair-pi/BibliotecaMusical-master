@@ -1,0 +1,127 @@
+body{
+    background-color: #f2f3f5;
+    background-image: url(./imgs/BadBunny.jpg);
+    background-repeat: repeat;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    margin: 6%;
+}
+
+.contenedor{
+    width: 100%;
+    max-width:1000px;
+    min-width:5px;
+    margin:0 auto;
+}
+
+h1{
+    margin: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family:cursive;
+    border: solid 1px #e2dde1;
+    font-weight: 900;
+    letter-spacing: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.2s;
+
+}
+    
+h1:hover {
+    color: rgb(224, 219, 219);
+    text-shadow: 0 0 10px #e3160c,
+        0 0 25px #e3160c,
+        0 0 50px #e3160c,
+        0 0 100px #e3160c;
+}
+.body-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(200, 200, 200, 0.114);
+    box-shadow: 0 8px 32px 0 rgba(177, 179, 203, 0.15);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 30px;
+    border: 0.5px solid rgba( 255, 255, 255, 0.18 );
+    width: auto;
+    height: fit-content;
+    padding: 15px;
+}
+.song-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(200, 200, 200, 0.276);
+    box-shadow: 0 8px 32px 0 rgba(177, 179, 203, 0.15);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 20px;
+    border: 0px solid rgba( 255, 255, 255, 0.18 );
+    padding: 10px;
+    width: auto;
+    margin: 10px 0;
+}
+
+.info{
+    margin: 10px;
+    width: auto;
+}
+
+.info:hover {
+    color: rgb(224, 219, 219);
+    text-shadow: 0 0 10px #03f4e8,
+        0 0 25px #f403f0,
+        0 0 50px #f403f0,
+        0 0 100px #f403f0;
+}
+
+.image{
+    margin: 2px;
+    width: auto;
+    height: 140px;
+}
+
+img{
+    padding: 5px;
+    border-radius: 20px;
+    width: auto;
+}
+
+.song-name{
+    color: rgba(16, 37, 64, 1);
+}
+
+.song-name:hover {
+    color: rgb(224, 219, 219);
+    text-shadow: 0 0 10px #f42b03,
+        0 0 25px #f42b03,
+        0 0 50px #f42b03,
+        0 0 100px #f42b03;
+        transition: 0.1s;
+}
+
+.lyrics{
+    color: rgb(40, 40, 40);
+}
+
+.lyrics:hover {
+    color: rgb(224, 219, 219);
+    text-shadow: 0 0 10px #f40390,
+        0 0 25px #f40390,
+        0 0 50px #f40390,
+        0 0 100px #f40390;
+}
+
+.duration-words{
+    color: rgb(0, 33, 77);
+}
+
+@media screen and(max-width:400px){
+    .contenedor{
+        width:100%;
+    }
+}
